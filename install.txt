@@ -21,6 +21,26 @@ git diff
 
 
 git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+There is also command line --help:
+
+  atom --help
+  Atom Editor v0.80.0
+
+  Usage: atom [options] [file …]
+
+  Options:
+  -d, --dev Run in development mode. [boolean]
+  -f, --foreground Keep the browser process in the foreground. [boolean]
+  -h, --help Print this usage message. [boolean]
+  -l, --log-file Log all output to file. [string]
+  -n, --new-window Open a new window. [boolean]
+  -s, --spec-directory Set the spec directory (default: Atom’s spec directory). [string]
+  -t, --test Run the specified specs and exit with error code on failures. [boolean]
+  -v, --version Print the version. [boolean]
+  -w, --wait Wait for window to be closed before returning. [boolean]
+
+
+
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 
