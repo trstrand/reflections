@@ -29,3 +29,14 @@ echo $HOME
 
 git checkout master
 git status
+
+git Add
+git commit -m "Commit message"
+git diff --staged
+git reset --hard
+
+http://udacity.github.io/git-styleguide/
+https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
+https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+
+git branch

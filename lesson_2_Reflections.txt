@@ -12,8 +12,14 @@ The working directory is the directory where you are 'working', otherwise known 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Using 'git add', you can specify which file(s) and changes you want to add to the staging area
+Using 'git commit' will allow those files/changes in the staging area to be committed to the repository
+Using 'git diff' you can see the changes that are active in the staging area, allowing decisions to be made to allow for one commit per logical change
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Branching code allows new feature development, experiments, and new version development, while keeping a main line open and running for production
 
 How do the diagrams help you visualize the branch structure?
 
