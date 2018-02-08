@@ -23,8 +23,16 @@ Branching code allows new feature development, experiments, and new version deve
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams can help understand the structure of a repository, its branches, and its commits. It helps visualize how the code trees are organized.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches combines the code into one branch. Branching code off the master allows changes to be put in independently from the master repository.
+Diagraming the branches and the merges show which branches have branched off and which have merged back in.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+When everything is understandable and easy, automatic merging is a great time saving tool.
+If there are conflicts, however, the developer has to manually resolve conflicts before the merge can complete, which is how it should be.

@@ -21,6 +21,8 @@ git diff
 
 
 git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
 There is also command line --help:
 
   atom --help
@@ -60,3 +62,12 @@ https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sh
 https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 
 git branch
+git log --graph --oneline master branches
+git checkout -b new_branchName
+git branch -d (delete)
+
+git show
+
+git merge
+git merge --abort
+git config --global core.autocrlf true
