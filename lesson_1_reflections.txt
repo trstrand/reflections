@@ -13,7 +13,7 @@ commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
     Only uploading (committing) files into a repository after it has been verified/validated would keep bad code out of production.
-    Committing code in logical blocks with notes helps the organization and maintenance of the code
+    Committing code in logical blocks with notes helps the organization and maintenance of the code.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
