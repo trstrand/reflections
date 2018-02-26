@@ -32,4 +32,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a separate branch allows for changes (new features) to be added outside of the production master
+    Making direct changes in master is 'easier/faster', but when collaborating using branch and pull requests can help facilitate sharing code
