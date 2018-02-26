@@ -18,7 +18,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having a local copy of the remote allows for work to be done offline
+    It also allows the full repository to live locally
+    Using fetch, merge, pull will allow updating the remote
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

@@ -75,3 +75,7 @@ git config --global core.autocrlf true
 git remote -v
 git remote add origin https://github.com/trstrand/reflections.git
 git push origin master
+
+git fetch
+git merge
+git pull  (fetch and merge)
